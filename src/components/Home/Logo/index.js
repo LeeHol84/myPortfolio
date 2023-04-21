@@ -1,6 +1,4 @@
 import { useEffect, useRef } from 'react'
-import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import LogoS from '../../../assets/images/3d-text-font-letter-l-2288ee-aaddff.png'
 import './index.scss'
 
