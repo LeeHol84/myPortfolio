@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/3d-text-font-letter-l-2288ee-aaddff.png'
-import Logo from './Logo'
 import './index.scss'
 
 const Home = () => {
