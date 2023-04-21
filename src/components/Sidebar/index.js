@@ -1,12 +1,10 @@
 import './index.scss'
 import { useState } from 'react'
 import LogoS from '../../assets/images/3d-text-font-letter-l-2288ee-aaddff.png'
-import LogoSubtitle from '../../assets/images/3d-text-font-letter-l-2288ee-aaddff.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -86,15 +84,7 @@ const Sidebar = () => {
             />
           </a>
         </li>
-        <li>
-          <a href="" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon
-              icon={faSkype}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
+    
       </ul>
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
